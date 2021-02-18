@@ -8,15 +8,15 @@ import Nav from 'react-bootstrap/Nav'
 const Mynavbar = () => {
     return(
         <>
-        <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">My portfolio </Navbar.Brand>
+        <Navbar sticky="top" fixed="top" collapseOnSelect expand="sm" bg="dark" variant="dark">
+  <Navbar.Brand href="#home"><strong>My portfolio</strong> </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link href="#about">ABOUT</Nav.Link>
-      <Nav.Link href="#projects">PROJECTS</Nav.Link>
-      <Nav.Link href="#skills"> SKILLS </Nav.Link>
-      <Nav.Link href="#contact">CONTACT ME</Nav.Link>      
+      <Nav.Link className="hello" href="#about"><strong>ABOUT</strong></Nav.Link><br></br>
+      <Nav.Link href="#projects"><strong>PROJECTS</strong></Nav.Link>
+      <Nav.Link href="#skills"> <strong>SKILLS</strong> </Nav.Link>
+      <Nav.Link href="#contact"><strong>CONTACT ME</strong></Nav.Link>      
     </Nav>
   
   </Navbar.Collapse>

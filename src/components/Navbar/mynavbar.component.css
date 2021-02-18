@@ -11,6 +11,16 @@
   box-shadow: 1px 1px 1px #222;
   animation: moveDown 0.5s ease-in-out;
 }
+.hello {
+  font-size: 20px;
+}
+.navbar-inner {
+  background-color: transparent;
+}
+
+h6 {
+  padding-top: 10px;
+}
 
 @keyframes moveDown {
   from {
