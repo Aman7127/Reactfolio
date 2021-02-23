@@ -6,9 +6,11 @@ import Mycarousal from "./components/carousel/mycarousel.components";
 import TitleMessage from "./components/my-title/my-title.component";
 import About from "./pages/about/about.component";
 import { Parallax , Background } from "react-parallax";
-import Fade from "react-reveal/Fade"
+import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
 import Flip from "react-reveal/Flip";
+import Skills from "./pages/skills/skills.component";
 
 
 
@@ -48,9 +50,17 @@ const App = () => {
                 <About />
               </Fade>
             </Container>
+            
           
         </Parallax>
       </div>
+      
+        <Slide bottom duration={500}>
+         
+          <Skills />
+        </Slide>
+     
+      
       </div>
   );
 };
