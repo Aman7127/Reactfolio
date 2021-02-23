@@ -1,22 +1,57 @@
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable no-unused-vars */
-
+import React from "react";
 import Mynavbar from "./components/Navbar/mynavbar.component";
 import Mycarousal from "./components/carousel/mycarousel.components";
-import TitleMessage from "./components/my-title/my-title.component"
+import TitleMessage from "./components/my-title/my-title.component";
+import About from "./pages/about/about.component";
+import { Parallax , Background } from "react-parallax";
+import Fade from "react-reveal/Fade"
+import Container from "react-bootstrap/Container";
+import Flip from "react-reveal/Flip";
 
-import './App.css';
 
 
-function App() {
+import "./App.css";
+
+
+const App = () => {
   return (
-    <div >
-      <Mynavbar />
+    <div className="App" style={{ position: "relative" }}>
+    <Mynavbar />
+    
       <Mycarousal />
+      
+      
+     
       <TitleMessage />
+      
+      
+              
+      
+ 
+      
+      {/* <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      /> */}
 
-      <h1><center>My portfolio</center></h1>
-    </div>
+      <div>
+      <Parallax strength={300}>
+        <Background className="custom-bg">
+            <img src="https://images.pexels.com/photos/950241/pexels-photo-950241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bg-1" />
+            <hr></hr>
+        </Background>
+    
+            <Container className="container-box rounded">
+              <Fade left>
+                <About />
+              </Fade>
+            </Container>
+          
+        </Parallax>
+      </div>
+      </div>
   );
 };
 

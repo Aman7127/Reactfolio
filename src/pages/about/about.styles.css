@@ -1,0 +1,32 @@
+.about {
+  background-color: transparent;
+  font-size: 1.1em;
+}
+
+.profile {
+  border-radius: 100%;
+  max-width: 20rem;
+  margin-right: 50px;
+}
+
+.my-details {
+  background-color: #deeaee;
+}
+
+.hr {
+  border-color: grey;
+  border-style: none none dotted;
+  border-width: 10px;
+  width: 60%;
+}
+
+.font-details {
+  font-size: 3em;
+  font-weight: 500;
+  color: #6495ed;
+}
+.font-details-b {
+  font-size: 3em;
+  font-weight: 500;
+  color: #ffffff;
+}
