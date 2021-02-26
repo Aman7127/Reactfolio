@@ -10,7 +10,7 @@ import L_SmartBrain from "../../assets/img/projects/brain.webp";
 import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
 import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
 import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
-import L_back from "../../assets/img/background/backgorund1.webp";
+
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
@@ -183,7 +183,7 @@ const TimeLine = () => {
             date="10/07/2019"
             className="text-center"
             text="Pentagon prison server"
-            src={L_back}
+            src={L_todo}
             alt="Pentagon prison server"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -244,8 +244,8 @@ Fork, clone, play with the code and feel free to PR for any issues or new versio
           <ImageEvent
             date="21/01/2020"
             className="text-center"
-            text="Smart Brain Face Detect app"
-            src={L_back}
+            text="not yet uploaded"
+            src={L_todo}
             alt="Smart Brain Face Detect"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -367,8 +367,8 @@ Fork, clone, play with the code and feel free to PR for any issues or new versio
           <ImageEvent
             date="14/01/2020"
             className="text-center"
-            text="RoboFriends"
-            src={L_back}
+            text="not yet uploaded"
+            src={L_todo}
             alt="Robo Friends"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -480,8 +480,8 @@ Fork, clone, play with the code and feel free to PR for any issues or new versio
           <ImageEvent
             date="15/12/2019"
             className="text-center"
-            text="Product Hunt Clone"
-            src={L_back}
+            text="not yet uploaded"
+            src={L_todo}
             alt="Product Hunt Clone"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -589,8 +589,8 @@ Fork, clone, play with the code and feel free to PR for any issues or new versio
           <ImageEvent
             date="07/12/2019"
             className="text-center"
-            text="Portfolio using Django"
-            src={L_back}
+            text="not yet uploaded"
+            src={L_todo}
             alt="Portfolio using Django"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
