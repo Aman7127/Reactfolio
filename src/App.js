@@ -12,6 +12,10 @@ import Container from "react-bootstrap/Container";
 import Flip from "react-reveal/Flip";
 import Skills from "./pages/skills/skills.component";
 import TimeLine from "./components/projects-timeline/projects-timeline.component";
+import Contact from "./pages/contact-form/contact-form.component";
+import FooterPanel from "./components/footer/footer.component";
+import Particles from 'react-particles-js';
+import { particlesOptions } from "./particleOptions";
 
 
 
@@ -34,10 +38,11 @@ const App = () => {
       
  
       
-      {/* <Particles
+       <Particles
         className="particles particles-box"
         params={particlesOptions}
-      /> */}
+        />
+      
 
       <div>
       <Parallax strength={300}>
@@ -67,7 +72,16 @@ const App = () => {
           <TimeLine />
         </Slide>
       </Container>
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <Contact/>
+        </Fade>
+      </Container>
         </div>
+      
+      <FooterPanel />
+    
      
       
       </div>
