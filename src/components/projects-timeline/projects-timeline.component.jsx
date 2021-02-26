@@ -10,6 +10,7 @@ import L_SmartBrain from "../../assets/img/projects/brain.webp";
 import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
 import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
 import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+import L_back from "../../assets/img/background/backgorund1.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
@@ -182,7 +183,7 @@ const TimeLine = () => {
             date="10/07/2019"
             className="text-center"
             text="Pentagon prison server"
-            src={L_GetGitHubInfo}
+            src={L_back}
             alt="Pentagon prison server"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -244,7 +245,7 @@ Fork, clone, play with the code and feel free to PR for any issues or new versio
             date="21/01/2020"
             className="text-center"
             text="Smart Brain Face Detect app"
-            src={L_SmartBrain}
+            src={L_back}
             alt="Smart Brain Face Detect"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -367,7 +368,7 @@ Fork, clone, play with the code and feel free to PR for any issues or new versio
             date="14/01/2020"
             className="text-center"
             text="RoboFriends"
-            src={L_RoboFriends}
+            src={L_back}
             alt="Robo Friends"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -480,7 +481,7 @@ Fork, clone, play with the code and feel free to PR for any issues or new versio
             date="15/12/2019"
             className="text-center"
             text="Product Hunt Clone"
-            src={L_ProductHuntClone}
+            src={L_back}
             alt="Product Hunt Clone"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -589,7 +590,7 @@ Fork, clone, play with the code and feel free to PR for any issues or new versio
             date="07/12/2019"
             className="text-center"
             text="Portfolio using Django"
-            src={L_PortfolioUsingDjango}
+            src={L_back}
             alt="Portfolio using Django"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
