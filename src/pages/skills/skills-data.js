@@ -26,6 +26,8 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_c from "../../assets/img/skills/c.svg";
+import L_netlify from "../../assets/img/skills/netlify.svg";
 
 
 const skillsdata = {
@@ -47,7 +49,7 @@ const skillsdata = {
             link: "https://www.javascript.com/",
             imgAltText: "JavaScript",
             imgSrc: L_JAVASCRIPT,
-            skillName: "JavaScript",
+            skillName: "JavaScript(ES6)",
           },
           {
             link: "https://sass-lang.com/",
@@ -114,13 +116,19 @@ const skillsdata = {
             imgSrc: L_GITHUB_PAGES,
             skillName: "GitHub Pages",
           },
+          {
+            link: "https://www.netlify.com/",
+            imgAltText: "netlify",
+            imgSrc: L_netlify,
+            skillName: "Netlify",
+          },
     ] ,
     programminglanguages :[
             {
               link: "https://www.javascript.com/",
               imgAltText: "JavaScript",
               imgSrc: L_JAVASCRIPT,
-              skillName: "JavaScript",
+              skillName: "JavaScript(ES6)",
             },
             {
               link: "https://www.java.com/",
@@ -131,7 +139,7 @@ const skillsdata = {
             {
               link: "https://www.cpp.org/",
               imgAltText: "c++",
-              imgSrc: L_PYTHON,
+              imgSrc: L_c,
               skillName: "c/c++",
             },
             {
@@ -165,9 +173,6 @@ const skillsdata = {
             skillName: "GIT",
           },
     ]
-
-    
-
-}   ;
+};
 
 export default skillsdata;

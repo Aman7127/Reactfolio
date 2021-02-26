@@ -11,6 +11,7 @@ import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
 import Flip from "react-reveal/Flip";
 import Skills from "./pages/skills/skills.component";
+import TimeLine from "./components/projects-timeline/projects-timeline.component";
 
 
 
@@ -59,6 +60,14 @@ const App = () => {
          
           <Skills />
         </Slide>
+        <div>
+        <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <TimeLine />
+        </Slide>
+      </Container>
+        </div>
      
       
       </div>
